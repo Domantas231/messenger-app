@@ -9,6 +9,8 @@ HEIGHT = 480
 
 tk_login = tk.Tk()
 tk_login.geometry(f"{WIDTH}x{HEIGHT}")
+tk_login.title("Please login!")
+tk_login.iconbitmap("../resources/wave emoji.ico")
 
 # TODO fix the overall horrible layout
 # TODO reconfigure so that the position is static in the top left corner

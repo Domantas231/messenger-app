@@ -10,6 +10,10 @@ SERVER = "192.168.56.1"
 ADDR = (SERVER, PORT)
 CONFIRMATION_MESSAGE = "!RECEIVED"
 
+# TODO change the send message function so that
+# its made up of 3 different ones where:
+# connecting, sending and disconnecting
+
 def send_message(msg):
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect(ADDR)
