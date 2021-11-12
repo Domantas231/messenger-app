@@ -3,10 +3,10 @@ import json
 from networking.database import save_message
 
 HEADER = 16
-PORT = 5050
+PORT = 5050 # don't forget port-forwarding
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
-SERVER = "192.168.56.1"
+SERVER = "" # enter your server adress
 ADDR = (SERVER, PORT)
 CONFIRMATION_MESSAGE = "!RECEIVED"
 
